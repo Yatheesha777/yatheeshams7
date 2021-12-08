@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="run" name="Projecttt">
+<target name="run" depends="compile">
+<java classname="com.za.code.Pre">
+<classpath path="yathi"/>
+</java>
+</target>
+<target name="compile">
+<javac includeantruntime="false" srcdir="./src"  destdir="yathi" />
+</target>
+</project>
